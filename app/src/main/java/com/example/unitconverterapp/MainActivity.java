@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hi click Listener worked!", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "Hi click Listener worked!", Toast.LENGTH_SHORT).show();
                 String s = editText.getText().toString();
                 int kg = Integer.parseInt(s);
 
