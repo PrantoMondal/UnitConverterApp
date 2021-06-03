@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
     }
-    public void calculate(){
+    public void calculate(View view){
         String s = editText.getText().toString();
         int kg = Integer.parseInt(s);
 
